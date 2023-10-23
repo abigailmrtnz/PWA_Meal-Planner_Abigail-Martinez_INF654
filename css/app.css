@@ -5,7 +5,7 @@
     --title: #D2DE32;
   }
   
-  /* layout styles */
+  /*styles */
   nav {
     background: var(--primary);
     border-bottom: 10px solid var(--secondary);
