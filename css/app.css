@@ -21,11 +21,11 @@
     margin: 0;
   }
   
-  /* task styles */
-  .tasks {
+  /* meal styles */
+  .meals {
     margin-top: 20px;
   }
-  .card-panel.task {
+  .card-panel.meal {
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
@@ -34,27 +34,27 @@
     grid-template-areas: "image details delete";
     position: relative;
   }
-  .task img {
+  .meal img {
     grid-area: image;
     max-width: 60px;
   }
-  .task-details {
+  .meal-details {
     grid-area: details;
     margin-top: 6px;
   }
-  .task-delete {
+  .meal-delete {
     grid-area: delete;
     position: absolute;
     bottom: 0px;
     right: 0px;
   }
-  .task-delete i {
+  .meal-delete i {
     font-size: 18px;
   }
-  .task-title {
+  .meal-title {
     font-weight: bold;
   }
-  .task-ingredients {
+  .meal-ingredients {
     font-size: 0.8em;
   }
   
